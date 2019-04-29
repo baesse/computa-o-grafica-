@@ -11,5 +11,5 @@ imagem_filtrada = np.vstack([
  np.hstack([cv2.medianBlur(img, 9),
  cv2.medianBlur(img, 11)]),
  ])
-cv2.imshow("Imagem original e suavisadas pela mediana", imagem_filtrada)
+cv2.imshow("Imagem original e sua visadas pela mediana", imagem_filtrada)
 cv2.waitKey(0)
